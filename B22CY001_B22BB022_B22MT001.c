@@ -15,7 +15,7 @@ int main() {
     printf(" 7_Ellipse\n");
     printf(" 8_Parallelogram\n");
     printf(" 9_Cylinder\n");
-    printf(" 10_rhomus\n");
+    printf(" 10_Rhomus\n");
    
     printf("Enter the choice\n");
     scanf("%d", &choice);
@@ -80,7 +80,7 @@ int main() {
         case 9:
             printf("Enter the radius and height\n");
             scanf("%f %f", &radius, &height);
-            area = 2 * 3.14 * radius * height;
+            area = 2 * 3.142 * radius * height;
             printf("Area of a cylinder is: %f\n", area);
             break;
             
@@ -88,7 +88,7 @@ int main() {
             printf("Enter the diagonal_1 and diagonal_2");
             scanf("%f %f", &diagonal_1, &diagonal_2);
             area = 0.5 * diagonal_1 * diagonal_2;
-            printf("Area of a rhombus is: %f\n", area);
+            printf("Area of a Rhombus is: %f\n", area);
             break;
 
         default:
